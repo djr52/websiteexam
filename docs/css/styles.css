@@ -54,7 +54,8 @@ body{
     float: right;
 }
 #content{
-    background-color: chocolate;
+    background-color: white;
+    padding-bottom: 100px;
 }
 
 
@@ -68,7 +69,7 @@ body{
     padding-left: 320px;
     .decoration-fix;
 }
-#side-image{
+#image-box{
     .grSmall;
 
 
@@ -82,7 +83,9 @@ body{
     line-height: 130px;
 
 }
-
+p{
+    padding-left: 25px;
+}
 
 .clear-fix{
     clear: both;
@@ -106,4 +109,10 @@ body{
 .grSmall{
     width: 367px;
 
+}
+.border-fix{
+    border: 1px solid black;
+}
+.margin-auto{
+    margin: auto;
 }
