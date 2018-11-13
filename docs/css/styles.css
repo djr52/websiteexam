@@ -1,4 +1,4 @@
-#body{
+body{
     font-family: Helvetica, "Helvetica Neue", SansSerif;
 
 }
@@ -10,13 +10,13 @@
     height: 686px;
 }
 #logo{
-    width: 593px;
+    .grBig;
     height: 130px;
     background-color: white;
 }
 #menu{
-    background-color: bisque;
-    width: 367px;
+    background-color: white;
+    .grSmall;
     height: 130px;
     .center-text;
     line-height: 130px
@@ -27,8 +27,12 @@
     .margin-fix;
 
 }
+#menu ul a{
+    .decoration-fix;
+}
 #menu li{
     display: inline;
+
 
 }
 #banner{
@@ -46,13 +50,36 @@
     margin: 0px;
 
 }
+#paragraph{
+    float: right;
+}
+#content{
+    background-color: chocolate;
+}
+
+
 #learn-more h1{
     color: white;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+#learn-more h2 a{
+    color: blue;
+    padding-left: 320px;
+    .decoration-fix;
+}
+#side-image{
+    .grSmall;
+
+
 }
 #footer{
     background-color: black;
     height: 130px;
     color: white;
+    .center-text;
+    .clear-fix;
+    line-height: 130px;
 
 }
 
@@ -68,5 +95,15 @@
 }
 .margin-fix{
     margin:0px;
+
+}
+.decoration-fix{
+    text-decoration: none;
+}
+.grBig{
+    width: 593px;
+}
+.grSmall{
+    width: 367px;
 
 }
